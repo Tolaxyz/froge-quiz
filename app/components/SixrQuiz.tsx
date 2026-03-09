@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import SixrHeader from "./SixrHeader";
 import Player from "./Player";
 import QuizBall from "./QuizBall";
@@ -14,6 +14,21 @@ function shuffle<T>(arr: T[]): T[] {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+/** Shuffle answer choices while keeping correct answer accurate */
+function shuffleQuestion(q: Question): Question {
+  const choices = [...q.choices];
+  const correctAnswer = choices[q.answerIndex];
+
+  const shuffledChoices = shuffle(choices);
+  const newAnswerIndex = shuffledChoices.indexOf(correctAnswer);
+
+  return {
+    ...q,
+    choices: shuffledChoices,
+    answerIndex: newAnswerIndex,
+  };
 }
 
 type Question = {
@@ -47,16 +62,19 @@ export default function SixrQuiz({ questions }: SixrQuizProps) {
     pointer: 0,
   });
 
+  /** Initialize question deck */
   useEffect(() => {
     const totalCount = questions.length;
     const shuffledIndices = shuffle(
       Array.from({ length: totalCount }, (_, i) => i),
     );
+
     deckRef.current = { deck: shuffledIndices, pointer: 0 };
     createNextBatch();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  /** Create next quiz batch */
   function createNextBatch() {
     const totalCount = questions.length;
     let { deck, pointer } = deckRef.current;
@@ -69,7 +87,9 @@ export default function SixrQuiz({ questions }: SixrQuizProps) {
     const slice = deck.slice(pointer, pointer + TOTAL);
     deckRef.current = { deck, pointer: pointer + TOTAL };
 
-    const batch = slice.map((idx) => questions[idx]);
+    /** Shuffle answer choices here */
+    const batch = slice.map((idx) => shuffleQuestion(questions[idx]));
+
     setSelectedBatch(batch);
 
     setIndex(0);
@@ -80,10 +100,12 @@ export default function SixrQuiz({ questions }: SixrQuizProps) {
     setTimeLeft(QUESTION_TIME);
   }
 
+  /** Timer management */
   useEffect(() => {
     if (showScoreboard) return;
 
     clearInterval(timerRef.current!);
+
     timerRef.current = window.setInterval(() => {
       setTimeLeft((prev) => {
         if (prev <= 1) {
@@ -100,14 +122,17 @@ export default function SixrQuiz({ questions }: SixrQuizProps) {
 
   function handleAnswer(choiceIndex: number | null, timedOut = false) {
     if (showFeedback) return;
+
     clearInterval(timerRef.current!);
 
     const current = selectedBatch[index];
     if (!current) return;
 
     const correct = !timedOut && current.answerIndex === choiceIndex;
+
     setIsBatting(true);
     setShowFeedback(correct ? "correct" : "wrong");
+
     if (correct) setScore((s) => s + 1);
 
     setTimeout(() => nextQuestion(), 1000);
@@ -116,6 +141,7 @@ export default function SixrQuiz({ questions }: SixrQuizProps) {
   function nextQuestion() {
     setIsBatting(false);
     setShowFeedback(null);
+
     if (index + 1 >= selectedBatch.length) {
       setShowScoreboard(true);
       clearInterval(timerRef.current!);
@@ -130,6 +156,7 @@ export default function SixrQuiz({ questions }: SixrQuizProps) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-orange-50 to-white">
       <SixrHeader />
+
       <main className="p-6 grid grid-cols-1 md:grid-cols-3 gap-6 items-start w-full max-w-5xl bg-white/60 backdrop-blur-md rounded-2xl shadow-lg border border-white/40 overflow-hidden">
         <div className="col-span-1 flex flex-col items-center gap-4">
           <Player isBatting={isBatting} />
