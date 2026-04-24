@@ -16,7 +16,7 @@ export default function SixrHeader() {
         className="text-6xl font-bold text-orange-600 drop-shadow-lg bg-white/80 px-8 py-2 rounded-full"
         style={{ fontFamily: '"Comic Sans MS", "Comic Sans", cursive' }}
       >
-        FROGE 69mg
+        Camel cabal
       </motion.div>
     </header>
   );

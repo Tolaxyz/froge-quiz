@@ -1,397 +1,298 @@
 [
   {
-    "question": "What is the name of the main token in the project?",
-    "options": ["FROGE69MG", "FROGEX", "FROGECOIN", "FROGDAO"],
-    "answer": "FROGE69MG"
-  },
-  {
-    "question": "What animal represents the FROGE69MG ecosystem?",
-    "options": ["Dog", "Frog", "Cat", "Snake"],
-    "answer": "Frog"
-  },
-  {
-    "question": "What type of project is FROGE69MG?",
+    "question": "What is the core innovation behind Camel Cabal?",
     "options": [
-      "Crypto token project",
-      "Car company",
-      "Restaurant brand",
-      "Movie studio"
+      "Dual token NFTs",
+      "Gaming engine",
+      "Social media app",
+      "DeFi lending"
     ],
-    "answer": "Crypto token project"
+    "answer": "Dual token NFTs"
   },
   {
-    "question": "What digital asset is launching alongside the FROGE69MG token?",
+    "question": "In Camel Cabal, each NFT is represented by how many tokens?",
+    "options": ["1,000", "10,000", "1,000,000", "100,000"],
+    "answer": "1,000,000"
+  },
+  {
+    "question": "What token represents Camel Cabal NFTs?",
+    "options": ["DOGE", "CAMEL", "ETH", "SOL"],
+    "answer": "CAMEL"
+  },
+  {
+    "question": "What happens when you hold CAMEL tokens?",
     "options": [
-      "NFT collection",
-      "Mobile phone",
-      "Video game console",
-      "Bank card"
+      "You see the NFT art in your wallet",
+      "You earn staking rewards only",
+      "You get governance rights only",
+      "Nothing happens"
     ],
-    "answer": "NFT collection"
+    "answer": "You see the NFT art in your wallet"
   },
   {
-    "question": "What kind of culture does the FROGE69MG community embrace?",
+    "question": "What does Camel Cabal aim to improve?",
     "options": [
-      "Meme culture",
-      "Sports culture",
-      "Cooking culture",
-      "Fashion culture"
+      "Price discovery and liquidity",
+      "Gaming graphics",
+      "Social networking",
+      "Email systems"
     ],
-    "answer": "Meme culture"
+    "answer": "Price discovery and liquidity"
   },
   {
-    "question": "What does the FROGE69MG community aim to build?",
+    "question": "What makes Camel Cabal NFTs unique?",
     "options": [
-      "A strong frog ecosystem",
-      "A bank chain",
-      "A hotel network",
-      "A clothing brand"
+      "They trade like tokens",
+      "They are invisible",
+      "They are free only",
+      "They expire quickly"
     ],
-    "answer": "A strong frog ecosystem"
+    "answer": "They trade like tokens"
   },
   {
-    "question": "What do holders of FROGE69MG usually call themselves?",
-    "options": ["Frogs", "Lions", "Wolves", "Bulls"],
-    "answer": "Frogs"
-  },
-  {
-    "question": "What is the theme of the upcoming FROGE69MG NFT collection?",
-    "options": ["Frog characters", "Cars", "Robots", "Aliens"],
-    "answer": "Frog characters"
-  },
-  {
-    "question": "What makes each FROGE69MG NFT unique?",
+    "question": "What is one benefit of tokenized NFTs?",
     "options": [
-      "Different traits",
-      "Different weight",
-      "Different size",
-      "Different shape only"
+      "Deep liquidity",
+      "Slower trading",
+      "Higher gas always",
+      "Limited access"
     ],
-    "answer": "Different traits"
+    "answer": "Deep liquidity"
   },
   {
-    "question": "What does minting mean for the FROGE69MG NFTs?",
+    "question": "Camel Cabal allows NFTs to be traded in how many ways?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "question": "What does dual trading enable?",
     "options": [
-      "Creating the NFT on the blockchain",
-      "Selling the NFT",
-      "Deleting the NFT",
-      "Trading the NFT"
+      "Flexibility for users",
+      "Less control",
+      "No ownership",
+      "Centralization"
     ],
-    "answer": "Creating the NFT on the blockchain"
+    "answer": "Flexibility for users"
   },
   {
-    "question": "What does the FROGE69MG community encourage?",
+    "question": "What type of market behavior does Camel Cabal improve?",
     "options": [
-      "Strong community support",
-      "Selling quickly",
-      "Ignoring the project",
-      "Leaving the chat"
+      "Real price discovery",
+      "Artificial pricing",
+      "Fixed pricing",
+      "Manual pricing"
     ],
-    "answer": "Strong community support"
+    "answer": "Real price discovery"
   },
   {
-    "question": "What kind of branding does FROGE69MG focus on?",
-    "options": ["Frog-themed branding", "Space rockets", "Cars", "Dragons"],
-    "answer": "Frog-themed branding"
-  },
-  {
-    "question": "Where does most of the FROGE69MG community interact?",
-    "options": ["Social platforms", "Libraries", "Airports", "Museums"],
-    "answer": "Social platforms"
-  },
-  {
-    "question": "What type of artwork will FROGE69MG NFTs contain?",
+    "question": "What happens to liquidity with Camel Cabal?",
     "options": [
-      "Digital frog art",
-      "Paintings on canvas",
-      "Metal sculptures",
-      "Paper drawings"
+      "It increases",
+      "It disappears",
+      "It stays the same",
+      "It becomes locked"
     ],
-    "answer": "Digital frog art"
+    "answer": "It increases"
   },
   {
-    "question": "Why do people collect FROGE69MG NFTs?",
+    "question": "What does holding tokens represent?",
     "options": [
-      "Community and rarity",
-      "Physical weight",
-      "Paper value",
-      "Color alone"
+      "Fractional NFT ownership",
+      "Game points",
+      "Voting rights only",
+      "Random rewards"
     ],
-    "answer": "Community and rarity"
+    "answer": "Fractional NFT ownership"
   },
   {
-    "question": "What is the spirit of the FROGE69MG project?",
+    "question": "What is a key advantage of fractionalization?",
     "options": [
-      "Fun and community",
-      "Silence",
-      "Competition only",
-      "Isolation"
+      "Lower barrier to entry",
+      "Higher exclusivity only",
+      "No ownership",
+      "Less trading"
     ],
-    "answer": "Fun and community"
+    "answer": "Lower barrier to entry"
   },
   {
-    "question": "What kind of environment is often associated with frogs?",
-    "options": ["Ponds", "Deserts", "Mountains", "Ice fields"],
-    "answer": "Ponds"
-  },
-  {
-    "question": "What do frogs do best?",
-    "options": ["Hop", "Fly", "Dig", "Climb walls"],
-    "answer": "Hop"
-  },
-  {
-    "question": "What color is most associated with frogs and the project theme?",
-    "options": ["Green", "Purple", "Orange", "Black"],
-    "answer": "Green"
-  },
-  {
-    "question": "What makes the FROGE69MG community strong?",
-    "options": ["Unity", "Silence", "Isolation", "Competition"],
-    "answer": "Unity"
-  },
-  {
-    "question": "What kind of project energy does FROGE69MG promote?",
-    "options": ["Positive vibes", "Negative vibes", "Silence", "Fear"],
-    "answer": "Positive vibes"
-  },
-  {
-    "question": "What helps FROGE69MG grow?",
+    "question": "Camel Cabal combines NFTs with what?",
     "options": [
-      "Community support",
-      "Ignoring the project",
-      "Selling everything",
-      "Deleting tokens"
+      "Fungible tokens",
+      "Physical assets",
+      "Music streaming",
+      "AI models"
     ],
-    "answer": "Community support"
+    "answer": "Fungible tokens"
   },
   {
-    "question": "What type of collectibles are FROGE69MG NFTs?",
+    "question": "What kind of trading experience does Camel Cabal create?",
     "options": [
-      "Digital collectibles",
-      "Paper collectibles",
-      "Stone collectibles",
-      "Metal collectibles"
+      "Seamless and liquid",
+      "Slow and rigid",
+      "Manual only",
+      "Offline"
     ],
-    "answer": "Digital collectibles"
+    "answer": "Seamless and liquid"
   },
   {
-    "question": "What does the project hope to create with its NFTs?",
+    "question": "What does dual token structure solve?",
     "options": [
-      "A frog-themed ecosystem",
-      "A restaurant chain",
-      "A hotel brand",
-      "A sports league"
+      "Illiquidity in NFTs",
+      "Internet speed",
+      "Gas fees only",
+      "Wallet security"
     ],
-    "answer": "A frog-themed ecosystem"
+    "answer": "Illiquidity in NFTs"
   },
   {
-    "question": "What kind of identity does the project focus on?",
+    "question": "What kind of assets are Camel Cabal NFTs?",
     "options": [
-      "Frog identity",
-      "Lion identity",
-      "Wolf identity",
-      "Dragon identity"
+      "Tokenized NFTs",
+      "Physical goods",
+      "Stablecoins",
+      "Memecoins only"
     ],
-    "answer": "Frog identity"
+    "answer": "Tokenized NFTs"
   },
   {
-    "question": "What type of culture powers meme tokens like FROGE69MG?",
+    "question": "What does deep liquidity allow?",
     "options": [
-      "Internet meme culture",
-      "Office culture",
-      "School culture",
-      "Military culture"
+      "Easier buying and selling",
+      "Harder transactions",
+      "No trading",
+      "Manual approvals"
     ],
-    "answer": "Internet meme culture"
+    "answer": "Easier buying and selling"
   },
   {
-    "question": "What does the community celebrate during launches?",
+    "question": "What is the main goal of Camel Cabal?",
     "options": [
-      "New releases",
-      "Shutdowns",
-      "Token burns only",
-      "Server crashes"
+      "Reinvent NFT trading",
+      "Build games",
+      "Create exchanges",
+      "Launch stablecoins"
     ],
-    "answer": "New releases"
+    "answer": "Reinvent NFT trading"
   },
   {
-    "question": "What is the goal of building a strong NFT community?",
+    "question": "What kind of innovation is Camel Cabal bringing?",
     "options": [
-      "Long-term growth",
-      "Short-term silence",
-      "Ending the project",
-      "Stopping trading"
+      "NFT-token hybrid model",
+      "Social media tools",
+      "Cloud storage",
+      "Streaming services"
     ],
-    "answer": "Long-term growth"
+    "answer": "NFT-token hybrid model"
+  },
+
+  {
+    "question": "Would you rather hold the NFT or trade the tokens?",
+    "options": ["Hold NFT", "Trade tokens", "Both", "Neither"],
+    "answer": "Both"
   },
   {
-    "question": "What kind of frogs inspire the art in FROGE69MG?",
+    "question": "What matters more to you?",
+    "options": ["Liquidity", "Art", "Community", "Hype"],
+    "answer": "Liquidity"
+  },
+  {
+    "question": "What would you do if your NFT pumped 10x?",
+    "options": ["Sell tokens", "Hold forever", "Buy more", "Flex on timeline"],
+    "answer": "Sell tokens"
+  },
+  {
+    "question": "What excites you most about Camel Cabal?",
+    "options": ["Dual trading", "Art", "Community", "Memes"],
+    "answer": "Dual trading"
+  },
+  {
+    "question": "What kind of trader are you?",
+    "options": ["DeFi native", "NFT collector", "Long-term holder", "Flipper"],
+    "answer": "DeFi native"
+  },
+  {
+    "question": "What would you choose?",
+    "options": ["1 rare NFT", "1M tokens", "Half and half", "Flip both"],
+    "answer": "Half and half"
+  },
+  {
+    "question": "What is your strategy?",
+    "options": ["Accumulate", "Flip", "Hold", "Experiment"],
+    "answer": "Accumulate"
+  },
+  {
+    "question": "What’s your favorite part of Web3?",
+    "options": ["Innovation", "Money", "Community", "Memes"],
+    "answer": "Innovation"
+  },
+  {
+    "question": "What do you value more?",
+    "options": ["Utility", "Art", "Hype", "Scarcity"],
+    "answer": "Utility"
+  },
+  {
+    "question": "What would you do with extra liquidity?",
+    "options": ["Trade more", "Stake", "Hold", "Explore"],
+    "answer": "Trade more"
+  },
+  {
+    "question": "How do you discover value?",
+    "options": ["Market activity", "Hype", "Influencers", "Luck"],
+    "answer": "Market activity"
+  },
+  {
+    "question": "What defines a strong project?",
+    "options": ["Innovation", "Marketing", "Community", "Price"],
+    "answer": "Innovation"
+  },
+  {
+    "question": "What’s your risk appetite?",
+    "options": ["High", "Medium", "Low", "Depends"],
+    "answer": "Depends"
+  },
+  {
+    "question": "What kind of future do you see for NFTs?",
+    "options": ["Tokenized", "Static", "Gaming only", "Dead"],
+    "answer": "Tokenized"
+  },
+  {
+    "question": "What would you prefer?",
     "options": [
-      "Stylized meme frogs",
-      "Real frogs only",
-      "Cartoon dogs",
-      "Alien animals"
+      "Instant liquidity",
+      "Long-term holding",
+      "Staking rewards",
+      "Governance"
     ],
-    "answer": "Stylized meme frogs"
+    "answer": "Instant liquidity"
   },
   {
-    "question": "What keeps the FROGE69MG ecosystem active?",
+    "question": "What makes you ape into a project?",
+    "options": ["Narrative", "Team", "Tech", "Community"],
+    "answer": "Tech"
+  },
+  {
+    "question": "What kind of innovation wins?",
+    "options": ["Real utility", "Hype cycles", "Memes only", "Speculation"],
+    "answer": "Real utility"
+  },
+  {
+    "question": "What would you test first?",
     "options": [
-      "Community participation",
-      "Silence",
-      "Deleting chats",
-      "Leaving the project"
+      "Token trading",
+      "NFT view",
+      "Liquidity pools",
+      "Wallet display"
     ],
-    "answer": "Community participation"
+    "answer": "Token trading"
   },
   {
-    "question": "What do collectors look for in FROGE69MG NFTs?",
-    "options": ["Rare traits", "Weight", "Size", "Paper value"],
-    "answer": "Rare traits"
+    "question": "What is your Web3 identity?",
+    "options": ["Builder", "Trader", "Collector", "Explorer"],
+    "answer": "Trader"
   },
   {
-    "question": "What type of art medium are FROGE69MG NFTs?",
-    "options": [
-      "Digital art",
-      "Oil painting",
-      "Clay sculpture",
-      "Stone carving"
-    ],
-    "answer": "Digital art"
-  },
-  {
-    "question": "What does the frog symbolize in the project?",
-    "options": ["Community and fun", "Fear", "Silence", "Competition"],
-    "answer": "Community and fun"
-  },
-  {
-    "question": "What makes NFT traits interesting to collectors?",
-    "options": ["Rarity", "Weight", "Temperature", "Thickness"],
-    "answer": "Rarity"
-  },
-  {
-    "question": "What helps spread the FROGE69MG brand?",
-    "options": [
-      "Community sharing",
-      "Ignoring it",
-      "Deleting posts",
-      "Stopping discussion"
-    ],
-    "answer": "Community sharing"
-  },
-  {
-    "question": "What kind of ecosystem is FROGE69MG building?",
-    "options": [
-      "Frog-themed crypto ecosystem",
-      "Bank ecosystem",
-      "Hotel ecosystem",
-      "Retail ecosystem"
-    ],
-    "answer": "Frog-themed crypto ecosystem"
-  },
-  {
-    "question": "What do strong communities do for a project?",
-    "options": ["Help it grow", "End it quickly", "Ignore it", "Hide it"],
-    "answer": "Help it grow"
-  },
-  {
-    "question": "What makes NFTs exciting to collect?",
-    "options": ["Uniqueness", "Weight", "Size", "Age"],
-    "answer": "Uniqueness"
-  },
-  {
-    "question": "What does the frog mascot represent?",
-    "options": [
-      "The FROGE69MG identity",
-      "A random animal",
-      "A competitor token",
-      "A sports team"
-    ],
-    "answer": "The FROGE69MG identity"
-  },
-  {
-    "question": "What kind of launch event excites the community?",
-    "options": [
-      "NFT mint",
-      "Project shutdown",
-      "Server crash",
-      "Token deletion"
-    ],
-    "answer": "NFT mint"
-  },
-  {
-    "question": "What do people enjoy sharing in the FROGE69MG community?",
-    "options": ["Memes", "Homework", "Weather reports", "Traffic updates"],
-    "answer": "Memes"
-  },
-  {
-    "question": "What kind of artwork makes the NFTs stand out?",
-    "options": [
-      "Unique frog traits",
-      "Plain backgrounds",
-      "Blank images",
-      "No traits"
-    ],
-    "answer": "Unique frog traits"
-  },
-  {
-    "question": "What keeps a meme project alive?",
-    "options": [
-      "Community engagement",
-      "Silence",
-      "Deleting chats",
-      "Stopping updates"
-    ],
-    "answer": "Community engagement"
-  },
-  {
-    "question": "What is the vibe of the FROGE69MG ecosystem?",
-    "options": [
-      "Fun and energetic",
-      "Serious and silent",
-      "Quiet and inactive",
-      "Closed and private"
-    ],
-    "answer": "Fun and energetic"
-  },
-  {
-    "question": "What do frogs do that represents growth in the project?",
-    "options": [
-      "Leap forward",
-      "Sleep forever",
-      "Hide underground",
-      "Stay still"
-    ],
-    "answer": "Leap forward"
-  },
-  {
-    "question": "What type of community does FROGE69MG want?",
-    "options": ["Active", "Silent", "Inactive", "Hidden"],
-    "answer": "Active"
-  },
-  {
-    "question": "What makes the frog mascot memorable?",
-    "options": ["Its meme identity", "Its weight", "Its height", "Its age"],
-    "answer": "Its meme identity"
-  },
-  {
-    "question": "What is one goal of the FROGE69MG NFT launch?",
-    "options": [
-      "Expand the ecosystem",
-      "End the project",
-      "Remove the token",
-      "Close the community"
-    ],
-    "answer": "Expand the ecosystem"
-  },
-  {
-    "question": "What keeps collectors interested in NFTs?",
-    "options": [
-      "Rarity and community",
-      "Temperature",
-      "Weight",
-      "Paper copies"
-    ],
-    "answer": "Rarity and community"
+    "question": "What’s more important?",
+    "options": ["Utility", "Hype", "Design", "Timing"],
+    "answer": "Utility"
   }
 ]
